@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This Next Year</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="style/style.css" rel="stylesheet" />
+    <link href="style/media.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="icon" href="images/fav.png">
+</head>
+
+<body>
+
+    <canvas id="canvas">
+    </canvas><br>
+
+
+    <div class="container-fluid" id="firstDiv">
+        <div class="row aboutBack">
+            <img class="img img responsive" src="images/prvastrana.png">
+            <div
+                class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <div
+                    class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12 paddingOne">
+                    <div class="flexBox">
+                        <a href="index.html"><i class="fas fa-long-arrow-alt-left iconBack"></i></a>
+                        <p class="aboutText">ABOUT</p>
+                    </div>
+                    <h2 class="addName text-center">My name is...</h2>
+                    <div id="result" class="text-center"> </div>
+
+                    <form name="myForm" id="registration-form" method="post">
+
+                        <label for="enterYourName" class="sr-only" id="nameEnter">Name</label>
+                        <input class="form-control" type="text" name="name" id="enterYourName"
+                            placeholder="Enter your name" required>
+
+                        <input type="submit" id="myName" class="btn btn-block button myBtn activeBtn" value='NEXT'
+                            disabled>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Second Page -->
+
+    <div class="container-fluid my-top" id="secondDiv">
+        <div class="row careerBackA">
+            <img class="img img responsive" src="images/thirdpage.png">
+            <div
+                class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <div
+                    class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12 paddingOne padding3 padQ">
+                    <div class="flexBox">
+                        <a id="morelink" class="link-more"><i class="fas fa-long-arrow-alt-left iconBack"></i></a>
+                        <p class="aboutText">CAREER / WORK</p>
+                    </div>
+
+                    <h2 class="addName2a text-center">Lets start with my career.</h2>
+                    <form id="registration-form">
+                        <div class="form-group">
+                            <input type="submit" id="myName2" class="btn btn-block myBtn" value='NEXT'>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Third page -->
+
+    <div class="container-fluid" id="thirdDiv">
+        <div class="row careerBack3">
+            <img class="img img responsive" src="images/career.jpeg">
+            <div
+                class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <div class="row">
+                    <div
+                        class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12 paddingTwo">
+                        <div class="flexBox">
+                            <a id="morelink2" class="link-more"><i class="fas fa-long-arrow-alt-left iconBack"></i></a>
+                            <p class="aboutText">CAREER / WORK</p>
+                        </div>
+                        <h2 class="addName text-center">I am currently a....</h2>
+                        <div id="result2" class="text-center"> </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 py-no">
+                            <p class="roleText">ROLE</p>
+                            <form id="registration-form" name="ss" method="get">
+                                <div class="ck-button">
+                                    <label>
+                                        <input class="first-checkbox" id="btn1" type="checkbox" name="vehicle"
+                                            value="Student"><span>Student</span>
+                                    </label>
+                                    <label>
+                                        <input class="first-checkbox" id="btn2" type="checkbox" name="vehicle"
+                                            value="Designer"><span>Designer</span>
+                                    </label>
+                                    <label>
+                                        <input class="first-checkbox" id="btn3" type="checkbox" name="vehicle"
+                                            value="Developer"><span>Developer</span>
+                                    </label>
+                                    <label>
+                                        <input class="first-checkbox" id="btn4" type="checkbox" name="vehicle" value="Business
+                                    Person"><span>Business Person</span>
+                                    </label><br>
+                                    <label>
+                                        <input class="first-checkbox" id="btn5" type="checkbox" name="vehicle"
+                                            value="Artist"><span>Artist</span>
+                                    </label>
+                                    <label>
+                                        <input class="first-checkbox" id="btn6" type="checkbox" name="vehicle" value="Content
+                                        Creator"><span>Content Creator</span>
+                                    </label>
+                                    <label>
+                                        <input class="first-checkbox" id="btn6a" type="checkbox" name="vehicle"
+                                            value="htmlAdd"><span id='answerCurently'>
+
+                                        </span>
+                                    </label>
+                                </div>
+
+                                <!-- Button trigger modal -->
+                                <div class="btn-more">
+                                    <button type="button" data-toggle="modal" data-target="#myModal"
+                                        class="moreButton">More</button>
+                                </div>
+
+                                <!------------- Modal ------------->
+                                <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                                    aria-labelledby="myModalLabel">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                            <div class="modal-body modalPadding">
+
+                                                <div class="col-md-3 col-md-offset-4">
+                                                    <h1 class="modal-title" id="myModalLabel">I am curently
+                                                        a..</h1>
+                                                    <label for="enterProffestion" class="sr-only"
+                                                        id="nameEnter">Name</label>
+                                                    <input class="form-control" type="text" name="name"
+                                                        id="curentyProffesion" placeholder="Small bussiness owner...">
+                                                    <input type="submit" id="name" class="btn btn-block button"
+                                                        value='ADD' data-dismiss="modal" aria-label="Close" disabled>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="welcomeDiv" class="answer_list">
+                                    <div class="role">
+                                        <p class="text-left roleText">CURRENTLY AT</p>
+                                    </div>
+                                    <div class="ck-button" id="ckck">
+                                        <label>
+                                            <input class="single-checkbox" id="btn7" type="checkbox" name="vehicle"
+                                                value="Agency"><span>Agency</span>
+                                        </label>
+                                        <label>
+                                            <input class="single-checkbox" id="btn8" type="checkbox" name="vehicle"
+                                                value="School">
+                                            <span>School</span>
+                                        </label>
+                                        <label>
+                                            <input class="single-checkbox" id="btn9" type="checkbox" name="vehicle"
+                                                value="Company">
+                                            <span>Company</span>
+                                        </label>
+                                        <label>
+                                            <input class="single-checkbox" id="btn10" type="checkbox" name="vehicle"
+                                                value="Freelance">
+                                            <span>Freelance</span>
+                                        </label>
+                                        <label>
+                                            <input class="single-checkbox" id="btn10a" type="checkbox" name="vehicle"
+                                                value="Independent"><span id="answerQuestion">
+                                            </span>
+                                        </label>
+                                    </div>
+
+
+                                    <!-- Button trigger modal -->
+                                    <div class="btn-more">
+                                        <button type="button" data-toggle="modal" data-target="#myModal1"
+                                            class="moreButton">More</button>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog"
+                                        aria-labelledby="myModalLabel">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                <div class="modal-body modalPadding">
+
+                                                    <div class="col-md-3 col-md-offset-4">
+                                                        <h1 class="modal-title" id="myModalLabel">I curently
+                                                            work at..</h1>
+                                                        <label for="enterYourName" class="sr-only"
+                                                            id="nameEnter">Name</label>
+                                                        <input class="form-control" type="text" name="name"
+                                                            id="enterYourProffesion"
+                                                            placeholder="an agency in Los Angeles">
+                                                        <input type="submit" id="nameB" class="btn btn-block button"
+                                                            value='ADD' data-dismiss="modal" aria-label="Close"
+                                                            disabled>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="role">
+                                        <p class="text-left roleText">HOW I'M FEELING</p>
+                                    </div>
+                                    <div class="ck-button">
+
+                                        <label>
+                                            <input class="third-checkbox" id="btn12" type="checkbox" name="vehicle"
+                                                value="Not So Well"><span>Not
+                                                So Well</span>
+                                        </label>
+
+                                        <label>
+                                            <input class="third-checkbox" id="btn13" type="checkbox" name="vehicle"
+                                                value="Could Be Better"><span>Could Be
+                                                Better</span>
+                                        </label>
+
+                                        <label>
+                                            <input class="third-checkbox" id="btn15" type="checkbox" name="vehicle"
+                                                value="Very Satisfied"><span>Very
+                                                Satisfied</span>
+                                        </label>
+                                        <label>
+                                            <input class="third-checkbox" id="btn14" type="checkbox" name="vehicle"
+                                                value="Satisfied"><span>Satisfied</span>
+                                        </label>
+                                        <label>
+                                            <input class="third-checkbox" id="btn11" type="checkbox" name="vehicle"
+                                                value="Unsatisfied"><span>Unsatisfied</span>
+                                        </label>
+                                    </div>
+
+                                </div>
+
+                                <input type="submit" id="nameA" class="btn btn-block button" value='NEXT' disabled>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fourth Page -->
+    <div class="container-fluid" id="fourthDiv">
+        <div class="row careerBack3a">
+            <img class="img img responsive" src="images/website-dribbble.png">
+            <div
+                class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <div class="row">
+                    <div
+                        class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12 paddingOne padW padYY">
+                        <div class="flexBox">
+                            <a id="morelink3" class="link-more"><i class="fas fa-long-arrow-alt-left iconBack"></i></a>
+                            <p class="aboutText">CAREER / WORK</p>
+                        </div>
+                        <!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> -->
+                        <h2 class="addName2 text-center">Where i would like to be within this next year</h2>
+                        <p class="text-center text-purple">What are come things you want to see change with your
+                            work
+                            and
+                            what
+                            actions
+                            will you
+                            take to
+                            get there?</p><br>
+                        <p class="please"></p>
+                        <form id="registration-form" name="ss" action="" method="get">
+                            <textarea class="form-control" rows="7" id="comment" maxlength="200" minlength="15"
+                                placeholder="I've really enjoyed working with my creative director, and am interested in learning more about her field of work."
+                                required></textarea>
+                            <input type="submit" id="nameC" class="btn btn-block button" value='NEXT' disabled>
+                        </form>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fifth Page  -->
+
+    <div class="container-fluid" id="fifthDiv">
+        <div class="row careerBack4">
+            <img class="img img responsive" src="images/girl_running_house.png">
+            <div
+                class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12 paddingOne
+                    padding3 padQ">
+                        <div class="flexBox">
+                            <a id="morelink4" class="link-more"><i class="fas fa-long-arrow-alt-left iconBack"></i></a>
+                            <p class="aboutText">PERSONAL INTERESTS
+                            </p>
+                        </div>
+                        <!-- <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> -->
+                        <h2 class="addName text-center">Easy! Let's move on to personal interests.</h2>
+                        <form id="registration-form">
+                            <div class="form-group">
+                                <input type="submit" id="nameD" class="btn btn-block myBtn" value='NEXT'>
+                            </div>
+                        </form>
+                        <!-- </div> -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Sixt Page  -->
+    <div class="container-fluid" id="sixthDiv">
+        <div class="row careerBack5">
+            <img class="img img responsive" src="images/personalGirl.png">
+            <div
+                class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <div class="row">
+                    <div
+                        class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12 paddingOne paddingMob padYM padd">
+                        <div class="flexBox">
+                            <a id="morelink5" class="link-more"><i class="fas fa-long-arrow-alt-left iconBack"></i></a>
+                            <p class="aboutText">PERSONAL INTEREST</p>
+                        </div>
+                        <h2 class="addName text-center">Things that interest me.</h2>
+                        <div id="result3" class="text-center"> </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <form id="registration-form" name="ss" method="get">
+                                <div class="ck-button">
+                                    <label>
+                                        <input class="interest-checkbox" id="btn31" type="checkbox" name="Meetups"
+                                            value="Meetups"><span>Meetups</span>
+                                    </label>
+                                    <label>
+                                        <input class="interest-checkbox" id="btn32" type="checkbox" name="Exercising"
+                                            value="Exercising"><span>Exercising</span>
+                                    </label>
+                                    <label>
+                                        <input class="interest-checkbox" id="btn33" type="checkbox" name="Gardening"
+                                            value="Gardening"><span>Gardening</span>
+                                    </label>
+                                    <label>
+                                        <input class="interest-checkbox" id="btn34" type="checkbox" name="Gaming"
+                                            value="Gaming"><span>Gaming</span>
+                                    </label><br>
+                                    <label>
+                                        <input class="interest-checkbox" id="btn35" type="checkbox" name="Volounteer"
+                                            value="Volounteering"><span>Volounteer</span>
+                                    </label>
+                                    <label>
+                                        <input class="interest-checkbox" id="btn36" type="checkbox" name="Travelling"
+                                            value="Travelling"><span>Travelling</span>
+                                    </label>
+                                    <label>
+                                        <input class="interest-checkbox" id="btn37" type="checkbox" name="vehicle"
+                                            value="Collectingr"><span>Collecting</span>
+                                    </label>
+                                    <label>
+                                        <input class="interest-checkbox" id="btn38" type="checkbox" name="No
+                                        Interests" value="No Interests"><span>No
+                                            Interests</span>
+                                    </label>
+                                    <label>
+                                        <input class="interest-checkbox" id="btn39" type="checkbox" name="vehicle"
+                                            value="htmlAdd" active><span id='answerCurently2'>
+                                        </span>
+                                    </label>
+                                </div>
+
+                                <!-- Button trigger modal -->
+                                <div class="btn-more">
+                                    <button type="button" data-toggle="modal" data-target="#myModalAct"
+                                        class="moreButton">More</button>
+                                </div>
+                                <input type="submit" id="nameE" class="btn btn-block button" value='NEXT' disabled>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------- Modal ------------->
+    <div class="modal fade" id="myModalAct" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <div class="modal-body modalPadding">
+                    <div class="col-md-3 col-md-offset-4">
+                        <h1 class="modal-title" id="myModalLabel">What are some hobbies and
+                            activities that interest you?</h1>
+                        <label for="enterProffestion" class="sr-only" id="nameEnter">Name</label>
+                        <input class="form-control" type="text" name="name" id="curentyActivities"
+                            placeholder="Marathon-ing">
+                        <input type="submit" id="nameActivities" class="btn btn-block button" value='ADD'
+                            data-dismiss="modal" aria-label="Close" disabled>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seventh Page -->
+    <div class="container-fluid" id="seventhDiv">
+        <div class="row careerBack6">
+            <img class="img img responsive" src="images/jump__by_vincenzo_insinnaa.gif">
+            <div
+                class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <div class="row">
+                    <div
+                        class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12 paddingTwo">
+                        <div class="flexBox">
+                            <a id="morelink6" class="link-more"><i class="fas fa-long-arrow-alt-left iconBack"></i></a>
+                            <p class="aboutText">PERSONAL INTERESTS</p>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <h2 class="addName7 text-center">How I plan on pursuing and being
+                                consistent with these interests.</h2>
+                            <p class="please2"></p>
+                            <form id="registration-form" name="ss" action="" method="get">
+                                <textarea class="form-control" rows="5" id="comment2" maxlength="200" minlength="15"
+                                    placeholder="I plan on attending a kickboxing class twice a week"
+                                    required></textarea>
+                                <input type="submit" id="nameF" class="btn btn-block button" value='NEXT' disabled>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Eight Page -->
+    <div class="container-fluid" id="eightDiv">
+        <div class="row careerBack7 my-top">
+            <img class="img img responsive" src="images/vidello_shot_06_2x.png">
+            <div
+                class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12 paddingOne
+                    padding3 padQ">
+                        <div class="flexBox">
+                            <a id="morelink7" class="link-more"><i class="fas fa-long-arrow-alt-left iconBack"></i></a>
+                            <p class="aboutText">RELATIONSHIPS</p>
+                        </div>
+                        <h2 class="addName text-center">Let's move onto improving relationships.</h2>
+
+                        <form id="registration-form">
+                            <div class="form-group">
+                                <input type="submit" id="myName8" class="btn btn-block myBtn" value='NEXT'>
+
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Nineth Page -->
+    <div class="container-fluid" id="ninthDiv">
+        <div class="row careerBack8">
+            <img class="img img responsive" src="images/dribbble__6.png">
+            <div
+                class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <div class="row">
+                    <div
+                        class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12 paddingOne paddingMob padYM">
+                        <div class="flexBox">
+                            <a id="morelink8" class="link-more"><i class="fas fa-long-arrow-alt-left iconBack"></i></a>
+                            <p class="aboutText">RELATIONSHIPS</p>
+                        </div>
+
+                        <h2 class="addName text-center">How I would rate my interpersonal relatioship skills.</h2>
+                        <div id="result4" class="text-center"> </div>
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                            <form id="registration-form" name="ss" method="get">
+                                <div class="ck-button">
+                                    <label>
+                                        <input class="rela-checkbox" id="btn40" type="checkbox" name="vehicle"
+                                            value="Terrible"><span>Terrible</span>
+                                    </label>
+                                    <label>
+                                        <input class="rela-checkbox" id="btn42" type="checkbox" name="vehicle"
+                                            value="Okay"><span>Okay</span>
+                                    </label>
+                                    <label>
+                                        <input class="rela-checkbox" id="btn44" type="checkbox" name="vehicle"
+                                            value="Awesome"><span>Awesome</span>
+                                    </label>
+                                    <label>
+                                        <input class="rela-checkbox" id="btn43" type="checkbox" name="vehicle"
+                                            value="Pretty Good"><span>Pretty Good</span>
+                                    </label>
+                                    <label>
+                                        <input class="rela-checkbox" id="btn41" type="checkbox" name="vehicle"
+                                            value="Not So Good"><span>Not
+                                            So Good</span>
+                                    </label>
+                                </div>
+                                <input type="submit" id="myName9" class="btn btn-block button" value='NEXT' disabled>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tenth Page -->
+    <div class="container-fluid" id="tenthDiv">
+        <div class="row careerBack9">
+            <img class="img img-responsive" src="images/dribbbble.jpg">
+            <div
+                class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <div class="row">
+                    <div
+                        class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12 paddingTwo">
+                        <div class="flexBox">
+                            <a id="morelink9" class="link-more"><i class="fas fa-long-arrow-alt-left iconBack"></i></a>
+                            <p class="aboutText">RELATIONSHIP</p>
+                        </div>
+
+                        <h2 class="addName add text-center tabletHeader">How I plan on pursuing and being
+                            consistent with these interests.</h2>
+                        <p class="please5"></p>
+                        <form id="registration-form" name="ss" action="" method="get">
+                            <textarea class="form-control" rows="8" id="comment22" maxlength="200" minlength="15"
+                                placeholder="I plan on attending a kickboxing class twice a week" required></textarea>
+                            <input type="submit" id="myName10" class="btn btn-block button" value='NEXT' disabled>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 11th page -->
+
+    <div class="container-fluid" id="eleventhDiv">
+        <div class="row careerBack10 my-top">
+            <img class="img img responsive" src="images/tote_dribbble.png">
+            <div
+                class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <div class="row">
+                    <div
+                        class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12 paddingOne padQ">
+                        <div class="flexBox">
+                            <a id="morelink10" class="link-more"><i class="fas fa-long-arrow-alt-left iconBack"></i></a>
+                            <p class="aboutText">HEALTH</p>
+                        </div>
+                        <h2 class="addName text-center">Almost done! Let's move onto our health.</h2>
+
+                        <form id="registration-form">
+                            <div class="form-group">
+                                <input type="submit" id="myName11" class="btn btn-block myBtn" value='START'>
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 12th page -->
+
+    <div class="container-fluid" id="twelthDiv">
+        <div class="row careerBack11">
+            <img class="img img responsive" src="images/tochak.jpg">
+            <div
+                class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <div class="row">
+                    <div
+                        class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12 paddingOne">
+                        <div class="flexBox">
+                            <a id="morelink11" class="link-more"><i class="fas fa-long-arrow-alt-left iconBack"></i></a>
+                            <p class="aboutText">HEALTH</p>
+                        </div>
+
+                        <h2 class="addName text-center">How I would rate my personal health and wellness.</h2>
+                        <div id="result5" class="text-center"> </div>
+
+                        <form id="registration-form" name="ss" method="get">
+                            <div class="ck-button">
+                                <label>
+                                    <input class="health-checkbox" id="btn54" type="checkbox" name="vehicle"
+                                        value="Awesome"><span>Tip Top
+                                        Shape</span>
+                                </label>
+                                <label>
+                                    <input class="health-checkbox" id="btn51" type="checkbox" name="vehicle"
+                                        value="Not So Good"><span>Not
+                                        So Good</span>
+                                </label>
+                                <label>
+                                    <input class="health-checkbox" id="btn53" type="checkbox" name="vehicle"
+                                        value="Pretty Good"><span>Pretty
+                                        Good</span>
+                                </label>
+                                <label>
+                                    <input class="health-checkbox" id="btn52" type="checkbox" name="vehicle"
+                                        value="Okay"><span>It's
+                                        Okay</span>
+                                </label>
+                                <label>
+                                    <input class="health-checkbox" id="btn50" type="checkbox" name="vehicle"
+                                        value="Terrible"><span>Terrible</span>
+                                </label>
+
+                            </div>
+                            <input type="submit" id="nameHealth" class="btn btn-block button" value='NEXT' disabled>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 13th page -->
+
+    <div class="container-fluid" id="thirteenDiv">
+        <div class="row careerBack12">
+            <img class="img img responsive" src="images/healthPage.jpg">
+            <div
+                class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <div class="row">
+                    <div
+                        class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12 paddingTwo planPad">
+                        <div class="flexBox">
+                            <a id="morelink12" class="link-more"><i class="fas fa-long-arrow-alt-left iconBack"></i></a>
+                            <p class="aboutText">HEALTH</p>
+                        </div>
+                        <div class="col-md-12">
+                            <h2 class="addName add text-center">My action plan for improving my overall health and well
+                                being.</h2>
+                            <p class="please3"></p>
+                            <form id="registration-form" name="ss" action="" method="get">
+                                <textarea class="form-control" rows="8" id="comment3" maxlength="200" minlength="15"
+                                    placeholder="I will run 365 miles this upcoming year." required></textarea>
+                                <input type="submit" id="namePlan" class="btn btn-block button" value='NEXT' disabled>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 14th page -->
+
+    <div class="container-fluid" id="fourteenthDiv">
+        <div class="row careerBack13 my-top">
+            <img class="img img responsive" src="images/bonus.jpg">
+            <div
+                class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <div class="row">
+                    <div
+                        class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12 paddingOne">
+                        <div class="flexBox">
+                            <a id="morelink13" class="link-more"><i class="fas fa-long-arrow-alt-left iconBack"></i></a>
+
+                            <p class="aboutText">This Next Year</p>
+                        </div>
+
+                        <h2 class="addName add text-center bonus-text">Check your inbox same day next year and see
+                            if
+                            you
+                            have achieved your goals</h2>
+
+                        <form id="registration-form">
+                            <div class="form-group">
+                                <input type="submit" id="bonus1" class="btn btn-block myBtn" value='NEXT'>
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 15th page -->
+
+    <div class="container-fluid" id="fifteenDiv">
+        <div class="row careerBack14 my-top">
+            <img class="img img responsive" src="images/lastEre.jpg">
+            <div
+                class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <div class="row">
+                    <div
+                        class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12 paddingOne lastPad">
+                        <div class="flexBox">
+                            <a id="morelink14" class="link-more"><i class="fas fa-long-arrow-alt-left iconBack"></i></a>
+                            <p class="aboutText">SUBMIT</p>
+                        </div>
+                        <h2 class="addName text-center">Last step!</h2>
+                        <p class="text-center roleText">Enter the email that you'd like to send your letter to. You'll
+                            receive it 365 days from today. </p><br>
+                        <div id="resultEmail" class="text-center"> </div>
+                        <form name="form1" id="lastForm">
+                            <div class="form-group">
+                                <label for="enterYourName" class="sr-only" id="nameEnter">Email</label>
+                                <input class="form-control" type="email" placeholder="me@example.com" name="email"
+                                    id="enterYourEmail2" required>
+                                <input type="submit" for="enterYourEmail" id="bonus2" class="btn btn-block button myBtn"
+                                    value='SUBMIT' disabled>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

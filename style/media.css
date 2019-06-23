@@ -1,0 +1,917 @@
+@media only screen and (max-width: 1230px) {
+    .careerBack3 img {
+        width: 31%;
+        height: 60%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .careerBackA img {
+        width: 29%;
+        height: 49%;
+    }
+    .careerBack4 img {
+        width: 32%;
+        height: 57%;
+    }
+    .careerBack3a img {
+        width: 29%;
+        height: 54%;
+    }
+    .careerBack5 img {
+        width: 33%;
+    }
+    .careerBack6 img {
+        width: 33%;
+        height: 55%;
+    }
+    .careerBack8 img {
+        width: 32%;
+        height: 56%;
+    }
+    .careerBack9 img {
+        width: 30%;
+        height: 53%;
+    }
+    .careerBack10 img {
+        width: 34%;
+    }
+    .careerBack11 img {
+        width: 32%;
+        height: 55%;
+    }
+    .careerBack12 img {
+        width: 31%;
+        height: 57%;
+    }
+    .careerBack13 img {
+        width: 33%;
+    }
+    .careerBack14 img {
+        width: 32%;
+        height: 61%;
+    }
+}
+
+@media only screen and (max-width: 1194px) {
+    .careerBackA img {
+        width: 28%;
+        height: 42%;
+    }
+    .careerBack3a img {
+        width: 29%;
+        height: 49%;
+    }
+    .careerBack4 img {
+        width: 34%;
+        height: 57%;
+    }
+    .text-purple {
+        font-size: 1.5rem;
+    }
+    .careerBack6 img {
+        width: 33%;
+        height: 52%;
+    }
+    .careerBack5 img {
+        width: 33%;
+        height: 52%;
+    }
+}
+
+@media only screen and (max-width: 1108px) {
+    .careerBack8 img {
+        width: 33%;
+        height: 46%;
+    }
+}
+
+@media only screen and (max-width: 1081px) {
+    .careerBack5 img {
+        height: 51%;
+    }
+}
+
+@media only screen and (max-width: 1052px) {
+    .careerBack3a img {
+        width: 29%;
+        height: 40%;
+    }
+    .careerBackA img {
+        width: 35%;
+        height: 48%;
+    }
+    .careerBack3 img {
+        height: 53%;
+    }
+    .careerBack4 img {
+        width: 37%;
+        height: 57%;
+    }
+    .text-purple {
+        font-size: 1.5rem;
+    }
+    .careerBack5 img {
+        height: 49%;
+        width: 34%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .careerBack4 img {
+        width: 29%;
+        height: 51%;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .careerBackA img {
+        width: 31%;
+        height: 45%;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .paddingOne {
+        /* width: 70%; */
+        margin-top: 15%;
+    }
+    .paddingTwo {
+        margin-top: 15%;
+        /* width: 70%; */
+    }
+    .padding5 {
+        margin-top: 15%;
+    }
+    .padding3 {
+        padding-bottom: 6%;
+    }
+    .padW {
+        padding-bottom: 10%;
+    }
+    .paddingMob {
+        padding-bottom: 5%;
+    }
+    .pad6 {
+        padding-bottom: 0%;
+    }
+    .planPad {
+        margin-top: 10%;
+    }
+    .lastPad {
+        margin-top: 10%;
+    }
+    .careerBackA img {
+        width: 35%;
+        height: 45%;
+        right: 0px;
+    }
+    .careerBack4 img {
+        width: 29%;
+        height: 48%;
+        left: 0px;
+    }
+    .careerBack6 img {
+        width: 35%;
+        height: 45%;
+        left: 0px;
+    }
+    .careerBack14 img {
+        width: 37%;
+        height: 50%;
+        right: 0px;
+    }
+    .pad6 {
+        padding-bottom: 10%;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .careerBackA img {
+        width: 32%;
+        height: 41%;
+    }
+}
+
+/*TABLET*/
+
+@media only screen and (max-width: 768px) {
+    .aboutBack img {
+        width: 34%;
+        height: 34%;
+    }
+    .addName2a {
+        margin-bottom: 10px;
+    }
+    .padW {
+        padding-bottom: 4%;
+    }
+    .paddingMob {
+        padding-bottom: 5%;
+    }
+    .paddingOne {
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .careerBack4 img {
+        width: 33%;
+        height: 38%;
+    }
+    .iconBack {
+        font-size: 2.6rem;
+    }
+    .careerBackA img {
+        width: 27%;
+        height: 32%;
+    }
+    .paddingTwo {
+        margin-top: 10%;
+        margin-top: 8%;
+    }
+    .padd {
+        padding-bottom: 5%;
+    }
+    .careerBack3 img {
+        display: none;
+    }
+    .padQ {
+        padding-bottom: 1%;
+    }
+    .careerBack4 img {
+        width: 38%;
+        height: 44%;
+    }
+    .careerBack3a img {
+        display: none;
+    }
+    .addName {
+        font-size: 2.2rem;
+    }
+    .addName2a {
+        font-size: 2.2rem;
+    }
+    .padding5 {
+        margin-top: 10%;
+        margin: 0 auto;
+    }
+    .careerBack5 img {
+        display: none;
+    }
+    .careerBack6 img {
+        display: none;
+    }
+    .careerBack7 img {
+        width: 33%;
+        height: 37%;
+    }
+    .careerBack8 img {
+        display: none;
+    }
+    .careerBack9 img {
+        display: none;
+    }
+    .careerBack10 img {
+        width: 34%;
+        height: 43%;
+    }
+    .careerBack11 img {
+        width: 39%;
+        height: 41%;
+    }
+    .careerBack12 img {
+        display: none;
+    }
+    .careerBack13 img {
+        width: 37%;
+        height: 45%;
+    }
+    .careerBack14 img {
+        width: 33%;
+        height: 40%;
+        bottom: -25px;
+    }
+    .bonus-text img {
+        font-size: 30px;
+    }
+    .ck-button label span {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .paddingOne {
+        margin: 0 auto;
+        margin-top: 8%;
+        margin-bottom: 2%;
+        /* width: 65%; */
+    }
+    .paddingTwo {
+        margin: 0 auto;
+        margin-top: 8%;
+        margin-bottom: 3%;
+        /* width: 65%; */
+    }
+    .padding5 {
+        margin: 0 auto;
+        margin-top: 8%;
+        width: 40%;
+    }
+    .padding3 {
+        padding-bottom: 3%;
+    }
+    .padW {
+        /* width: 65%; */
+        padding-bottom: 3%;
+        /* margin: 0 auto; */
+        margin-top: 8%;
+    }
+    .paddingMob {
+        padding-bottom: 2%;
+    }
+    .pad6 {
+        padding-bottom: 60%;
+    }
+    .careerBack4 img {
+        width: 41%;
+        height: 42%;
+    }
+    .careerBack6 img {
+        width: 34%;
+        height: 36%;
+    }
+    .careerBack8 img {
+        width: 33%;
+    }
+}
+
+@media only screen and (max-width: 758px) {
+    .careerBack13 img {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 756px) {
+    .careerBack12 img {
+        width: 29%;
+        height: 36%;
+    }
+}
+
+@media only screen and (max-width: 753px) {
+    .careerBack4 img {
+        width: 35%;
+        height: 39%;
+    }
+}
+
+@media only screen and (max-width: 732px) {
+    .text-purple {
+        font-size: 1.4rem;
+    }
+    textarea.form-control {
+        font-size: 12px;
+    }
+    /* .padYM {
+        padding-bottom: 20%;
+    } */
+    .padd {
+        padding-bottom: 6%;
+    }
+    .padW {
+        margin-top: 8%;
+        margin-bottom: 2%;
+    }
+    .careerBack3a img {
+        width: 25%;
+        height: 30%;
+    }
+    .careerBack5 img {
+        width: 18%;
+        height: 20%;
+    }
+    .careerBack6 img {
+        width: 30%;
+        height: 32%;
+    }
+    .careerBack8 img {
+        width: 29%;
+        height: 30%;
+    }
+    .careerBack9 img {
+        width: 24%;
+        height: 28%;
+    }
+    .careerBack10 img {
+        width: 40%;
+    }
+    .careerBack11 img {
+        width: 33%;
+        height: 25%;
+    }
+    .careerBack13 img {
+        bottom: -17px;
+    }
+    .careerBack14 img {
+        width: 37%;
+        height: 34%;
+        bottom: -24px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .text-purple {
+        font-size: 1.3rem;
+    }
+    .addName2 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-widith: 670px) {
+    .padW {
+        padding-bottom: 80%;
+    }
+}
+
+@media only screen and (max-width: 686px) {
+    .text-purple {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .ck-button label span {
+        font-size: 1.1rem;
+    }
+    .careerBack3 img {
+        width: 32%;
+        height: 34%;
+    }
+}
+
+@media only screen and (max-width: 646px) {
+    .padW {
+        padding-bottom: 4%;
+    }
+}
+
+@media only screen and (max-width: 596px) {
+    .ck-button label span {
+        font-size: 1.1rem;
+    }
+    .aboutBack img {
+        width: 42%;
+    }
+}
+
+@media screen and (max-width: 556px) {
+    .padW {
+        padding-bottom: 67%;
+    }
+}
+
+@media only screen and (max-width: 554px) {
+    .careerBack3a img {
+        width: 24%;
+        height: 22%;
+    }
+    .careerBack5 img {
+        width: 37%;
+        height: 30%;
+    }
+    .careerBack6 img {
+        width: 34%;
+        height: 33%;
+    }
+    .padW {
+        padding-bottom: 59%;
+    }
+    .addName2a {
+        font-size: 2.2rem;
+    }
+    .careerBackA img {
+        width: 42%;
+        height: 36%;
+    }
+    .careerBack8 img {
+        width: 28%;
+        height: 23%;
+    }
+    .careerBack9 img {
+        width: 32%;
+        height: 29%;
+    }
+    .careerBack11 img {
+        width: 41%;
+        height: 37%;
+    }
+    .careerBack14 img {
+        bottom: -29px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .addName {
+        font-size: 2rem;
+    }
+    .paddingOne {
+        margin: 0 auto;
+        margin-top: 8%;
+    }
+    .paddingTwo {
+        margin: 0 auto;
+        margin-top: 8%;
+    }
+    .padding5 {
+        margin: 0 auto;
+        margin-top: 8%;
+    }
+    .padding3 {
+        padding-bottom: 6%;
+    }
+    .padW {
+        padding-bottom: 6%;
+    }
+    .paddingMob {
+        padding-bottom: 5%;
+    }
+    .pad6 {
+        padding-bottom: 40%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+    .planPad {
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+    .careerBack3 img {
+        width: 30%;
+        height: 32%;
+    }
+    .addName2a {
+        font-size: 2rem;
+    }
+    .careerBack12 img {
+        display: none;
+    }
+    .careerBack9 img {
+        width: 30%;
+        height: 25%;
+    }
+}
+
+@media only screen and (max-width: 533px) {
+    .padW {
+        padding-bottom: 67%;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .padW {
+        padding-bottom: 71%;
+    }
+}
+
+@media only screen and (max-width: 513px) {
+    .padW {
+        padding-bottom: 73%;
+    }
+}
+
+@media only screen and (max-width: 493px) {
+    .padW {
+        padding-bottom: 72%;
+    }
+}
+
+@media only screen and (max-width: 492px) {
+    .addName2 {
+        font-size: 2rem;
+    }
+    .padW {
+        padding-bottom: 82%;
+    }
+    .paddingMob {
+        padding-bottom: 38%;
+    }
+}
+
+@media only screen and (max-width: 462px) {
+    .padW {
+        padding-bottom: 88%;
+    }
+}
+
+@media only screen and (max-width: 439px) {
+    .ck-button label span {
+        font-size: 1.1rem;
+    }
+    .addName7 {
+        color: #543B91;
+        font-size: 2rem;
+    }
+    .padW {
+        /* width: 65%; */
+    }
+    .please {
+        font-size: 1.2rem;
+    }
+    .text-purple {
+        margin-bottom: 0;
+    }
+}
+
+/*MOBILEN*/
+
+@media only screen and (max-width: 426px) {
+    .addName {
+        font-size: 2rem;
+    }
+    .paddingOne {
+        /* width: 90%; */
+        margin-top: 15%;
+    }
+    .paddingTwo {
+        /* width: 90%; */
+        margin-top: 15%;
+    }
+    .padding5 {
+        margin-top: 8%;
+        width: 90%;
+        margin-left: 16%;
+    }
+    .padding3 {
+        padding-bottom: 2%;
+    }
+    .padW {
+        padding-bottom: 79%;
+    }
+    .paddingMob {
+        padding-bottom: 43%;
+    }
+    .addName7 {
+        font-size: 2rem;
+    }
+    .padYM {
+        padding-bottom: 32%;
+    }
+    .padd {
+        padding-bottom: 45%;
+    }
+    .pad6 {
+        padding-bottom: 80%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+    .planPad {
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+    #nameMain {
+        width: 70%;
+        font-size: 20px;
+    }
+    .addName2a {
+        margin-bottom: 48px;
+    }
+    .headerMain {
+        font-size: 35px;
+    }
+    .headerParagraph {
+        font-size: 15px;
+    }
+    .bonus-text {
+        font-size: 2rem;
+    }
+    .aboutBack img {
+        width: 56%;
+        height: 33%;
+    }
+    .careerBackA img {
+        width: 52%;
+        height: 32%;
+    }
+    .careerBack3 img {
+        display: none;
+    }
+    .careerBack3a img {
+        display: none;
+    }
+    .careerBack4 img {
+        width: 50%;
+        height: 38%;
+    }
+    .careerBack5 img {
+        display: none;
+    }
+    .careerBack6 img {
+        display: none;
+    }
+    .careerBack7 img {
+        width: 65%;
+        height: 41%;
+        left: 19%;
+    }
+    .careerBack8 img {
+        display: none;
+    }
+    .careerBack9 img {
+        display: none;
+    }
+    .careerBack10 img {
+        height: 31%;
+        width: 45%;
+        /* left: 19%; */
+    }
+    .careerBack11 img {
+        display: none;
+    }
+    .careerBack13 img {
+        display: none;
+    }
+    .careerBack14 img {
+        display: none;
+    }
+    .modalPadding {
+        margin-top: 147px;
+    }
+    .modal-title {
+        font-size: 2.5rem;
+    }
+    .text-purple {
+        font-size: 1.2rem;
+    }
+    textarea.form-control {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 413px) {
+    .padW {
+        padding-bottom: 79%;
+    }
+    .paddingMob {
+        padding-bottom: 34%;
+    }
+}
+
+@media only screen and (max-width: 401px) {
+    .paddingMob {
+        padding-bottom: 44%;
+    }
+    .addName7 {
+        color: #543B91;
+        font-size: 2rem;
+    }
+    .careerBack13 img {
+        display: block;
+        bottom: -23px;
+        right: 86px;
+        width: 57%;
+    }
+}
+
+@media only screen and (max-width: 389px) {
+    .padW {
+        padding-bottom: 97%;
+    }
+    .paddingMob {
+        padding-bottom: 35%;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .paddingOne {
+        /* width: 70%; */
+        margin: 0 auto;
+        margin-top: 15%;
+    }
+    .careerBack10 img {
+        height: 26%;
+    }
+    .paddingTwo {
+        margin-top: 15%;
+        margin: 0 auto;
+        /* width: 70%; */
+        /* margin-left: 18%; */
+    }
+    .padding5 {
+        margin-top: 15%;
+        /* width: 70%;
+        margin-left: 16%; */
+    }
+    .padding3 {
+        padding-bottom: 4%;
+    }
+    .padW {
+        padding-bottom: 5%;
+    }
+    .paddingMob {
+        padding-bottom: 9%;
+    }
+    .pad6 {
+        padding-bottom: -50%;
+    }
+    .planPad {
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+    .aboutBack img {
+        display: none;
+    }
+    .careerBackA img {
+        width: 58%;
+        height: 32%;
+    }
+    .careerBack3a img {
+        display: none;
+    }
+    .ck-button label span {
+        font-size: 1.1rem;
+    }
+    .careerBack6 img {
+        display: none;
+    }
+    .paddingTwo {
+        padding-bottom: 12%;
+        margin-top: 15%;
+    }
+    .bonus-text {
+        font-size: 17px;
+    }
+    .careerBack14 img {
+        width: 62%;
+        height: 35%;
+    }
+    .addName2a {
+        font-size: 2rem;
+    }
+    .modalPadding {
+        margin-top: 113px;
+    }
+    .modal-title {
+        font-size: 2rem;
+    }
+    .careerBack4 img {
+        height: 35%;
+    }
+}
+
+@media only screen and (max-width: 334px) {
+    .padW {
+        padding-bottom: 111%;
+    }
+    .ck-button label span {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .paddingOne {
+        /* width: 80%; */
+        margin-top: 15%;
+    }
+    .paddingTwo {
+        margin-top: 15%;
+        /* width: 80%; */
+    }
+    .padding5 {
+        margin-top: 12%;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .padding3 {
+        padding-bottom: 9%;
+    }
+    .padW {
+        padding-bottom: 9%;
+    }
+    .paddingMob {
+        padding-bottom: 13%;
+    }
+    .pad6 {
+        padding-bottom: -50%;
+    }
+    .planPad {
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+    .careerBackA img {
+        height: 34%;
+    }
+    .careerBack4 img {
+        width: 65%;
+        height: 35%;
+        left: 0px;
+    }
+    .careerBack7 img {
+        height: 34%;
+    }
+    .careerBack13 img {
+        right: 70px;
+        height: 41%;
+    }
+    .careerBack10 img {
+        height: 26%;
+    }
+}

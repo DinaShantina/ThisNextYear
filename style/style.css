@@ -1,0 +1,505 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Progres Bar */
+
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+}
+
+#canvas {
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    animation-fill-mode: forwards;
+    transition: width 1s ease-out !important;
+    position: fixed;
+}
+
+.button {
+    width: 100px;
+    display: block;
+    background: linear-gradient(to right, #9370DB 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    margin-top: 30px;
+}
+
+.myBtn {
+    margin-top: 30px;
+    color: grey;
+}
+
+#myName2:active, #nameD:active, #myName8:active, #myName11:active, #bonus1:active {
+    background-color: #4AC1BD;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea {
+    resize: both;
+    overflow: auto;
+}
+
+#myName2 {
+    background-color: #9370DB;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/* First Page my name is */
+
+.aboutBack img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 70%;
+}
+
+.addName {
+    color: #543B91;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+.addName2a {
+    color: #543B91;
+    font-size: 2.5rem;
+    margin-bottom: 80px;
+    padding-top: 5%;
+}
+
+#result {
+    padding-bottom: 15px;
+}
+
+#enterYourName {
+    border: 1px solid rgb(119, 83, 202);
+}
+
+.flexBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progressNav {
+    position: fixed;
+}
+
+.progress1 {
+    background-color: rgb(69, 91, 187);
+    height: 3vh;
+}
+
+.pProgress {
+    margin-top: 5px;
+}
+
+.textWhite {
+    color: white;
+}
+
+.paddingOne {
+    padding-bottom: 5%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    padding-top: 2%;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 12px 8px 18px -6px rgba(0, 0, 0, 0.19);
+}
+
+.my-center {
+    margin: 0 auto;
+}
+
+/* Career */
+
+.buttona {
+    width: 100px;
+    height: 30px;
+    display: block;
+    border-radius: 10px;
+    background: linear-gradient(to right, blue 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    background-position: left bottom;
+    color: white;
+}
+
+.careerBackA img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 38%;
+    height: 60%;
+}
+
+.paddingTwo {
+    padding-bottom: 5%;
+    margin-top: 6%;
+    margin-bottom: 7%;
+    padding-top: 2%;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 12px 8px 18px -6px rgba(0, 0, 0, 0.19);
+}
+
+.padding3 {
+    padding-bottom: 2%;
+}
+
+.please, .please2, .please5, .please3 {
+    color: #B94F74;
+    text-align: center;
+}
+
+#welcomeDiv {
+    display: none;
+}
+
+.roleText {
+    font-size: 1.2rem;
+    color: #543B91;
+    margin-top: 2%;
+}
+
+.role {
+    float: left;
+    width: 100%;
+}
+
+.moreButton {
+    background-color: transparent;
+    border: none;
+    color: grey;
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 2%;
+}
+
+.btn-more {
+    float: left;
+    width: 100%;
+}
+
+.moreButton:hover {
+    color: black;
+}
+
+.modal-dialog {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.modal-content {
+    height: 100%;
+    min-height: 100%;
+    height: auto;
+    border-radius: 0;
+}
+
+#myModalLabel {
+    color: white;
+}
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modalPadding {
+    margin-top: 200px;
+}
+
+.close {
+    float: left;
+    font-size: 50px;
+    color: white;
+    opacity: 1;
+}
+
+/* Page3 */
+
+textarea::placeholder {
+    color: rgb(218, 214, 221) !important;
+}
+
+.careerBack2 {
+    background-image: url(Career3.jpg);
+    background-size: cover;
+    height: 97.7vh;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* CheckBoxes */
+
+.ck-button label {
+    text-align: center;
+    width: 29%;
+    border-radius: 4px;
+    background-color: #64DBD9;
+    color: white;
+    margin: 2% 2% 2% 0;
+    float: left;
+}
+
+.ck-button input {
+    display: none;
+}
+
+.ck-button label:hover {
+    background-color: #6630d8;
+    cursor: pointer;
+}
+
+.ck-button label span {
+    text-align: center;
+    font-size: 1.4rem;
+    display: block;
+    border-radius: 4px;
+    background-color: #64DBD9;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.py-no {
+    padding: 0;
+}
+
+.ck-button input:hover {
+    background-color: #558EC3;
+}
+
+.ck-button input:checked+span {
+    background-color: blue;
+    color: #fff;
+}
+
+/* Page4 */
+
+.careerBack3 img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 38%;
+    height: 60%;
+}
+
+.paddingFourth {
+    padding-bottom: 5%;
+    margin-top: 6%;
+    margin-bottom: 8%;
+    padding-top: 2%;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 12px 8px 18px -6px rgba(0, 0, 0, 0.19);
+}
+
+.addName2 {
+    color: #543B91;
+    font-size: 2.2rem;
+}
+
+/* Page5 */
+
+.careerBack3a img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 36%;
+    height: 58%;
+}
+
+.careerBack4 img {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 38%;
+    height: 60%;
+}
+
+.padding5 {
+    padding-bottom: 5%;
+    margin-top: 6%;
+    margin-bottom: 17%;
+    padding-top: 2%;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 12px 8px 18px -6px rgba(0, 0, 0, 0.19);
+}
+
+#nameD {
+    background-color: #9370DB;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+
+/* Sixth Page */
+
+.careerBack5 img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 36%;
+    height: 58%;
+}
+
+/* Seventh Page */
+
+.careerBack6 img {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 40%;
+    height: 62%;
+}
+
+.addName5 {
+    color: #543B91;
+    font-size: 2.5rem;
+}
+
+.paddingThree {
+    padding-bottom: 1%;
+    margin-top: 6%;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 12px 8px 18px -6px rgba(0, 0, 0, 0.19);
+}
+
+.addName7 {
+    color: #543B91;
+    font-size: 2.3rem;
+    padding-bottom: 20px;
+}
+
+/* Eight Page */
+
+.careerBack7 img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 38%;
+    height: 60%;
+}
+
+#myName8 {
+    background-color: #9370DB;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+
+/* Ninth Page */
+
+.careerBack8 img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 38%;
+    height: 60%;
+}
+
+/* Tenth Page */
+
+.careerBack9 img {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 38%;
+    height: 60%;
+}
+
+.careerBack10 img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 38%;
+    height: 60%;
+}
+
+.add {
+    font-size: 2.3rem;
+}
+
+#myName11 {
+    background-color: #9370DB;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+
+/* Eleventh */
+
+.careerBack11 img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 38%;
+    height: 60%;
+}
+
+/* Twelve */
+
+.careerBack12 img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 38%;
+    height: 60%;
+}
+
+/* Thirteen page */
+
+.careerBack13 img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    height: 65%;
+}
+
+.careerBack14 img {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    height: 65%;
+}
+
+.text-purple {
+    font-size: 1.2rem;
+    color: #543B91;
+}
+
+#bonus1 {
+    background-color: #9370DB;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+
+#secondDiv, #thirdDiv, #fourthDiv, #fifthDiv, #sixthDiv, #seventhDiv, #eightDiv, #ninthDiv, #tenthDiv, #eleventhDiv, #twelthDiv, #thirteenDiv, #fourteenthDiv, #fifteenDiv {
+    display: none;
+}
+
+.iconBack {
+    color: #543B91;
+    cursor: pointer;
+    font-size: 2rem;
+}
